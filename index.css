@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: manrope, serif;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh 0;
+}
+.itens{
+    display: flex;
+    gap: 25px;
+}
+.botao{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #BE580F;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    white-space: nowrap;
+}
+
+.cabecalho img{
+    width: 200px;
+}
+
+.hero{
+    width: 100vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(assets/capa.jpeg.jpg);
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h1{
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}
+.hero p{
+    color: white;
+
+}
+.hero f{
+    color: #BE580F;
+}
+.acoes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: nowrap; 
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    gap: 8px;
+    width: 30vw;
+    height: 5vh;
+}
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}
+
+*{
+    margin:0;
+}
+.foto {
+  width: 150px;           
+  height: 150px;          
+  border-radius: 50%;     
+  object-fit: cover;      
+  border: 3px solid #333; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
